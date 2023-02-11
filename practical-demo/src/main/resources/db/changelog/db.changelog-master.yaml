@@ -1,0 +1,7 @@
+databaseChangeLog:
+  - include:
+      file: db/changelog/sql_scripts/create-db-queries.sql
+  - include:
+      file: db/changelog/sql_scripts/add-department-data.sql
+  - include:
+      file: db/changelog/sql_scripts/add-employee-data.sql
